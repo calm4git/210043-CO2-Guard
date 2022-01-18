@@ -1,0 +1,673 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>D:\GitHub\210043-CO2-Guard\Hardware\Project_KiCad6\CO2Guard\CO2Guard.kicad_sch</source>
+    <date>17.01.2022 08:28:21</date>
+    <tool>Eeschema (6.0.0)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Elektor CO2 Guard (210043)</title>
+        <company>Elektor Labs</company>
+        <rev/>
+        <date/>
+        <source>CO2Guard.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="BZ1">
+      <value>Buzzer</value>
+      <footprint>Beeper_Custom:Buzzer_12x9.5RM7.6</footprint>
+      <fields>
+        <field name="mpn">WT-1205</field>
+      </fields>
+      <libsource lib="Device" part="Buzzer" description="Buzzer, polarized"/>
+      <property name="mpn" value="WT-1205"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CO2Guard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>44e557d9-e47f-4a50-8f5d-bcda980206cf</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>100uF/50V</value>
+      <footprint>Capacitor_THT:CP_Radial_D6.3mm_P2.50mm</footprint>
+      <fields>
+        <field name="mpn">860020573008</field>
+      </fields>
+      <libsource lib="Device" part="CP_Small" description="Polarized capacitor, small symbol"/>
+      <property name="mpn" value="860020573008"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CO2Guard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>08d21031-c3a1-4d1c-9de9-5ffd99c76e27</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>100nF/10V</value>
+      <footprint>Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2</footprint>
+      <fields>
+        <field name="mpn">MKS2C031001A00KSSD</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="mpn" value="MKS2C031001A00KSSD"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CO2Guard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>59bddb49-0de2-486b-8af0-ace5627b1dd2</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>100nF/10V</value>
+      <footprint>Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2</footprint>
+      <fields>
+        <field name="mpn">MKS2C031001A00KSSD</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="mpn" value="MKS2C031001A00KSSD"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CO2Guard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d0c8170a-9e50-4648-8875-fa8a9cba7fe9</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>BAT85</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAT85.pdf</datasheet>
+      <fields>
+        <field name="mpn">BAT85S-TR</field>
+      </fields>
+      <libsource lib="Diode" part="BAT85" description="30V 0.2A Schottky barrier single diode, DO-35"/>
+      <property name="mpn" value="BAT85S-TR"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CO2Guard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bb6d002c-51e6-466f-bec6-e6df4afc3674</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>LED</value>
+      <footprint>LED_THT:LED_D3.0mm</footprint>
+      <fields>
+        <field name="mpn">151031SS04000</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="mpn" value="151031SS04000"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CO2Guard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>94dfd893-ee3d-4d8d-8372-827cd89bd515</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>LED</value>
+      <footprint>LED_THT:LED_D3.0mm</footprint>
+      <fields>
+        <field name="mpn">151031YS06000</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="mpn" value="151031YS06000"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CO2Guard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>295a02af-8bfe-4052-a0bc-d691390adc4c</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>LED</value>
+      <footprint>LED_THT:LED_D3.0mm</footprint>
+      <fields>
+        <field name="mpn">151031VS06000</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="mpn" value="151031VS06000"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CO2Guard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bd346b4e-53e9-4e3c-97be-fbd8d6b5c148</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CO2Guard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>067a3be8-de4b-4e4c-a7d6-bb5130974681</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CO2Guard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1c51bdf7-d2b3-41b2-b961-52e3801ba841</tstamps>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CO2Guard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>64a92ce5-ab21-4150-99d0-b10ecbc63050</tstamps>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CO2Guard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>82f8457d-b95d-4d30-af04-a13bac46d49f</tstamps>
+    </comp>
+    <comp ref="K1">
+      <value>Conn_01x03</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CO2Guard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>49d01e99-9a5a-4c6e-9b18-c70a8ea1f31a</tstamps>
+    </comp>
+    <comp ref="K2">
+      <value>Conn_01x04</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CO2Guard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>36208319-4ff1-4f72-981c-a9191d25b33a</tstamps>
+    </comp>
+    <comp ref="MOD1">
+      <value>MH-Z19B</value>
+      <footprint>mh-z19b:Winsen_MH-Z19B</footprint>
+      <datasheet>https://www.winsen-sensor.com/d/files/MH-Z19B.pdf</datasheet>
+      <libsource lib="mh_z19b" part="MH-Z19B" description="NDIR Carbon dioxide Module, CO2"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CO2Guard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>19b9f7f0-5173-44db-8a24-3494c51cd328</tstamps>
+    </comp>
+    <comp ref="MOD2">
+      <value>WeMos_D1_mini</value>
+      <footprint>Module:WEMOS_D1_mini_light</footprint>
+      <datasheet>https://wiki.wemos.cc/products:d1:d1_mini#documentation</datasheet>
+      <libsource lib="MCU_Module" part="WeMos_D1_mini" description="32-bit microcontroller module with WiFi"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CO2Guard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4b9b4a69-7060-4fa3-86cf-fe906aa1f592</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>1k5/0.25W</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="mpn">LR0204F1K5</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="mpn" value="LR0204F1K5"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CO2Guard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7a2acae2-5f6e-4092-b411-9e5e93a9a073</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>4k7/0.25W</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="mpn">CFR-25JB-52-4K7</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="mpn" value="CFR-25JB-52-4K7"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CO2Guard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>333c460c-2f1e-4c65-9d97-4427e98e3bca</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>0/0.25W</value>
+      <footprint>Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal</footprint>
+      <fields>
+        <field name="mpn">ZR0207C</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="mpn" value="ZR0207C"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CO2Guard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a6ef1964-af24-480e-9e6a-98ace491a93b</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>330/0.25W</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="mpn">MBA02040C3300FRP00</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="mpn" value="MBA02040C3300FRP00"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CO2Guard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cd52e09c-bf41-4d05-8088-85dc5caefb00</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>330/0.25W</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="mpn">MBA02040C3300FRP00</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="mpn" value="MBA02040C3300FRP00"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CO2Guard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4770a049-be10-4dac-b3d6-048019c88d07</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>330/0.25W</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="mpn">MBA02040C3300FRP00</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="mpn" value="MBA02040C3300FRP00"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CO2Guard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>06758d2c-27b5-48c4-b832-231aa93b802e</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>0/0.25W</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="mpn">ZR0207C</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="mpn" value="ZR0207C"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CO2Guard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b6457122-bcf9-4e90-8ee8-826ec1ff698e</tstamps>
+    </comp>
+    <comp ref="T1">
+      <value>BC327</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>http://www.onsemi.com/pub_link/Collateral/BC327-D.PDF</datasheet>
+      <fields>
+        <field name="mpn">BC32725BU</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="BC327" description="0.8A Ic, 45V Vce, PNP Transistor, TO-92"/>
+      <property name="mpn" value="BC32725BU"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CO2Guard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>989fc9dc-72d4-4cf5-877d-acfecb15325b</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector_Generic" part="Conn_01x03">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x04">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Buzzer">
+      <description>Buzzer, polarized</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*Buzzer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">BZ</field>
+        <field name="Value">Buzzer</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="-" type="passive"/>
+        <pin num="2" name="+" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="CP_Small">
+      <description>Polarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="BAT85">
+      <description>30V 0.2A Schottky barrier single diode, DO-35</description>
+      <docs>https://assets.nexperia.com/documents/data-sheet/BAT85.pdf</docs>
+      <footprints>
+        <fp>D*DO?35*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">BAT85</field>
+        <field name="Footprint">Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</field>
+        <field name="Datasheet">https://assets.nexperia.com/documents/data-sheet/BAT85.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCU_Module" part="WeMos_D1_mini">
+      <description>32-bit microcontroller module with WiFi</description>
+      <docs>https://wiki.wemos.cc/products:d1:d1_mini#documentation</docs>
+      <footprints>
+        <fp>WEMOS*D1*mini*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">WeMos_D1_mini</field>
+        <field name="Footprint">Module:WEMOS_D1_mini_light</field>
+        <field name="Datasheet">https://wiki.wemos.cc/products:d1:d1_mini#documentation</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~{RST}" type="input"/>
+        <pin num="2" name="A0" type="input"/>
+        <pin num="3" name="D0" type="bidirectional"/>
+        <pin num="4" name="SCK/D5" type="bidirectional"/>
+        <pin num="5" name="MISO/D6" type="bidirectional"/>
+        <pin num="6" name="MOSI/D7" type="bidirectional"/>
+        <pin num="7" name="CS/D8" type="bidirectional"/>
+        <pin num="8" name="3V3" type="power_out"/>
+        <pin num="9" name="5V" type="power_in"/>
+        <pin num="10" name="GND" type="power_in"/>
+        <pin num="11" name="D4" type="bidirectional"/>
+        <pin num="12" name="D3" type="bidirectional"/>
+        <pin num="13" name="SDA/D2" type="bidirectional"/>
+        <pin num="14" name="SCL/D1" type="bidirectional"/>
+        <pin num="15" name="RX" type="input"/>
+        <pin num="16" name="TX" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="Transistor_BJT" part="BC327">
+      <description>0.8A Ic, 45V Vce, PNP Transistor, TO-92</description>
+      <docs>http://www.onsemi.com/pub_link/Collateral/BC327-D.PDF</docs>
+      <footprints>
+        <fp>TO?92*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BC327</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-92_Inline</field>
+        <field name="Datasheet">http://www.onsemi.com/pub_link/Collateral/BC327-D.PDF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="C" type="passive"/>
+        <pin num="2" name="B" type="input"/>
+        <pin num="3" name="E" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="mh_z19b" part="MH-Z19B">
+      <description>NDIR Carbon dioxide Module, CO2</description>
+      <docs>https://www.winsen-sensor.com/d/files/MH-Z19B.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MH-Z19B</field>
+        <field name="Footprint">sensor_Carbon_dioxide:mh-z19b</field>
+        <field name="Datasheet">https://www.winsen-sensor.com/d/files/MH-Z19B.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Vout" type="power_out"/>
+        <pin num="2" name="RXD" type="input"/>
+        <pin num="3" name="TXD" type="output"/>
+        <pin num="4" name="SR" type="passive"/>
+        <pin num="5" name="HD" type="passive"/>
+        <pin num="6" name="Vin" type="power_in"/>
+        <pin num="7" name="GND" type="passive"/>
+        <pin num="8" name="A0T" type="passive"/>
+        <pin num="9" name="PWM" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Diode">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Diode.kicad_sym</uri>
+    </library>
+    <library logical="MCU_Module">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/MCU_Module.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="Transistor_BJT">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Transistor_BJT.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="K1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="MOD2" pin="8" pinfunction="3V3" pintype="power_out"/>
+    </net>
+    <net code="2" name="+5V">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="MOD1" pin="6" pinfunction="Vin" pintype="power_in"/>
+      <node ref="MOD2" pin="9" pinfunction="5V" pintype="power_in"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="T1" pin="3" pinfunction="E" pintype="passive"/>
+    </net>
+    <net code="3" name="BUZZER">
+      <node ref="MOD2" pin="12" pinfunction="D3" pintype="bidirectional"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+    </net>
+    <net code="4" name="GND">
+      <node ref="BZ1" pin="2" pinfunction="+" pintype="passive"/>
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="K1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="K2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="MOD1" pin="7" pinfunction="GND" pintype="passive"/>
+      <node ref="MOD2" pin="10" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="5" name="HD">
+      <node ref="K2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="MOD1" pin="5" pinfunction="HD" pintype="passive"/>
+    </net>
+    <net code="6" name="LED_C">
+      <node ref="K2" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="MOD2" pin="11" pinfunction="D4" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="LED_G">
+      <node ref="MOD2" pin="7" pinfunction="CS/D8" pintype="bidirectional"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+    </net>
+    <net code="8" name="LED_R">
+      <node ref="MOD2" pin="5" pinfunction="MISO/D6" pintype="bidirectional"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+    </net>
+    <net code="9" name="LED_Y">
+      <node ref="MOD2" pin="6" pinfunction="MOSI/D7" pintype="bidirectional"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+    </net>
+    <net code="10" name="Net-(BZ1-Pad1)">
+      <node ref="BZ1" pin="1" pinfunction="-" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="T1" pin="1" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="11" name="Net-(C1-Pad1)">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="K1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+    <net code="12" name="Net-(D2-Pad2)">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+    </net>
+    <net code="13" name="Net-(D3-Pad2)">
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+    </net>
+    <net code="14" name="Net-(D4-Pad2)">
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+    </net>
+    <net code="15" name="Net-(K2-Pad3)">
+      <node ref="K2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+    </net>
+    <net code="16" name="Net-(R1-Pad2)">
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="T1" pin="2" pinfunction="B" pintype="input"/>
+    </net>
+    <net code="17" name="Sensor_RX">
+      <node ref="MOD1" pin="2" pinfunction="RXD" pintype="input"/>
+      <node ref="MOD2" pin="14" pinfunction="SCL/D1" pintype="bidirectional"/>
+    </net>
+    <net code="18" name="Sensor_TX">
+      <node ref="MOD1" pin="3" pinfunction="TXD" pintype="output"/>
+      <node ref="MOD2" pin="13" pinfunction="SDA/D2" pintype="bidirectional"/>
+    </net>
+    <net code="19" name="unconnected-(MOD1-Pad1)">
+      <node ref="MOD1" pin="1" pinfunction="Vout" pintype="power_out"/>
+    </net>
+    <net code="20" name="unconnected-(MOD1-Pad4)">
+      <node ref="MOD1" pin="4" pinfunction="SR" pintype="passive"/>
+    </net>
+    <net code="21" name="unconnected-(MOD1-Pad8)">
+      <node ref="MOD1" pin="8" pinfunction="A0T" pintype="passive"/>
+    </net>
+    <net code="22" name="unconnected-(MOD1-Pad9)">
+      <node ref="MOD1" pin="9" pinfunction="PWM" pintype="passive"/>
+    </net>
+    <net code="23" name="unconnected-(MOD2-Pad1)">
+      <node ref="MOD2" pin="1" pinfunction="~{RST}" pintype="input"/>
+    </net>
+    <net code="24" name="unconnected-(MOD2-Pad2)">
+      <node ref="MOD2" pin="2" pinfunction="A0" pintype="input"/>
+    </net>
+    <net code="25" name="unconnected-(MOD2-Pad3)">
+      <node ref="MOD2" pin="3" pinfunction="D0" pintype="bidirectional"/>
+    </net>
+    <net code="26" name="unconnected-(MOD2-Pad4)">
+      <node ref="MOD2" pin="4" pinfunction="SCK/D5" pintype="bidirectional"/>
+    </net>
+    <net code="27" name="unconnected-(MOD2-Pad15)">
+      <node ref="MOD2" pin="15" pinfunction="RX" pintype="input"/>
+    </net>
+    <net code="28" name="unconnected-(MOD2-Pad16)">
+      <node ref="MOD2" pin="16" pinfunction="TX" pintype="output"/>
+    </net>
+  </nets>
+</export>
